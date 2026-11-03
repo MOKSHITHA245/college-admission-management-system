@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    container_name: college-admission-app
+    ports:
+      - "5000:5000"
+    restart: always
